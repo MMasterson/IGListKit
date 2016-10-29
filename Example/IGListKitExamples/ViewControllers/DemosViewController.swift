@@ -33,6 +33,7 @@ class DemosViewController: UIViewController, IGListAdapterDataSource {
         DemoItem(name: "Single Section Storyboard", controllerClass: SingleSectionViewController.self, controllerIdentifier: "singleSectionDemo"),
         DemoItem(name: "Working Range", controllerClass: WorkingRangeViewController.self),
         DemoItem(name: "Diff Algorithm", controllerClass: DiffTableViewController.self),
+        DemoItem(name: "Stacked Section Controller", controllerClass: StackedSectionViewController.self)
     ]
 
     override func viewDidLoad() {
